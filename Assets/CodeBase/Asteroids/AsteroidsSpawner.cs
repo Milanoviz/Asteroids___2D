@@ -67,7 +67,7 @@ namespace CodeBase.Asteroids
                 asteroid.DestroyedCompletely += HandlerDestroyedCompletely;
             }
             
-            _spawnAmount++;
+            ++_spawnAmount;
         }
 
         private void HandlerHit(object sender, CollidingAsteroidArgs args)
