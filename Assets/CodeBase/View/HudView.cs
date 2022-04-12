@@ -82,7 +82,7 @@ namespace CodeBase.View
             _speedText.text = $"Speed: {Math.Round(_heroController.ActualSpeed, 2)}";
             _laserShotCountText.text = $"Laser Shot Count: {_heroController.LaserShotCount}";
 
-            _timeBeforShotLaserText.text = _heroController.TimeBeforeShotLaser < 0 
+            _timeBeforShotLaserText.text = _heroController.TimeBeforeShotLaser > 0 
                 ? $"Laser recharge time: {Math.Round(_heroController.TimeBeforeShotLaser, 2)} seconds" 
                 : "Laser ready to fire";
             

@@ -10,7 +10,7 @@ namespace CodeBase.HeroModule
         public float Angle => _hero.Angle;
         public float ActualSpeed => _hero.ActualSpeed;
         public int LaserShotCount => _hero.LaserShotCount;
-        public float TimeBeforeShotLaser => -_hero.TimeBeforeShotLaser;
+        public float TimeBeforeShotLaser => _hero.TimeBeforeShotLaser;
 
         private readonly IHero _hero;
         private readonly ILivesService _livesService;
