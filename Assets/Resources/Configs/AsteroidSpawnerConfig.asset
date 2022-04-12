@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d3cbc99c6074b15a44530ed58fc923b, type: 3}
+  m_Name: AsteroidSpawnerConfig
+  m_EditorClassIdentifier: 
+  _asteroidSpawnerDataModel:
+    _startAsteroidsCount: 2
+    _splitAngle: 45
+    _trajectoryMovementVariance: 15
+    _fragmentsCount: 2
+    _delayBetweenSpawn: 0
